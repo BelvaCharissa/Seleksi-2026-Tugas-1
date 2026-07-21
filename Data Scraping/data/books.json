@@ -1,0 +1,281 @@
+[
+    {
+        "book_id": 1,
+        "title": "Educated (Terdidik): Sebuah Memoar",
+        "isbn": "9786020650357",
+        "num_pages": 520,
+        "publish_date": "14 Apr 2021",
+        "url": "https://www.gramedia.com/products/terdidik-educated-sebuah-memoar?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 2,
+        "title": "Black Showman Dan Pembunuhan Di Kota Tak Bernama",
+        "isbn": "9786020657691",
+        "num_pages": 516,
+        "publish_date": "22 Des 2021",
+        "url": "https://www.gramedia.com/products/black-showman-dan-pembunuhan-di-kota-tak-bernama?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 3,
+        "title": "The Chronicles of Narnia #3: The Horse & His Boy (Kuda dan Anak Manusia)",
+        "isbn": "9786020336411",
+        "num_pages": 312,
+        "publish_date": "2 Jun 2022",
+        "url": "https://www.gramedia.com/products/the-chronicles-of-narnia-3-the-horse-his-boy-kuda-dan-anak-manusia?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 4,
+        "title": "Eccedentesiast",
+        "isbn": "9786235953106",
+        "num_pages": 356,
+        "publish_date": "27 Apr 2022",
+        "url": "https://www.gramedia.com/products/eccedentesiast?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 5,
+        "title": "Laut Bercerita",
+        "isbn": "9786024246945",
+        "num_pages": 400,
+        "publish_date": "21 Des 2017",
+        "url": "https://www.gramedia.com/products/laut-bercerita?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 6,
+        "title": "Pasta Kacang Merah (An Sweet Bean Paste)",
+        "isbn": "9786020665078",
+        "num_pages": 240,
+        "publish_date": "6 Okt 2022",
+        "url": "https://www.gramedia.com/products/pasta-kacang-merah-an-sweet-bean-paste?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 7,
+        "title": "Funiculi Funicula (Kōhī Ga Samenai Uchi Ni---Before the Coffee Gets Cold)",
+        "isbn": "9786020651927",
+        "num_pages": 224,
+        "publish_date": "21 Apr 2021",
+        "url": "https://www.gramedia.com/products/funiculi-funicula-kohi-ga-samenai-uchi-ni-before-the-coffee-gets-cold?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 8,
+        "title": "Kim Ji-Yeong Lahir Tahun 1982",
+        "isbn": "9786020636191",
+        "num_pages": 192,
+        "publish_date": "11 Nov 2019",
+        "url": "https://www.gramedia.com/products/kim-ji-yeong-lahir-tahun-1982?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 9,
+        "title": "Pembunuhan di Rumah Miring (Murder in the Crooked House)",
+        "isbn": "9786020638447",
+        "num_pages": 400,
+        "publish_date": "23 Mar 2020",
+        "url": "https://www.gramedia.com/products/pembunuhan-di-rumah-miring-murder-in-the-crooked-house?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 10,
+        "title": "Almond",
+        "isbn": "9786020519807",
+        "num_pages": 232,
+        "publish_date": "1 Apr 2019",
+        "url": "https://www.gramedia.com/products/almond?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 11,
+        "title": "Wingit",
+        "isbn": "9786230021831",
+        "num_pages": 256,
+        "publish_date": "16 Des 2020",
+        "url": "https://www.gramedia.com/products/wingit?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 12,
+        "title": "Understand-Inc People 2.0: Cara Menjadi Ambivert dengan Menavigasi 4 Tipe Kepribadian",
+        "isbn": "9786020659107",
+        "num_pages": 160,
+        "publish_date": "17 Feb 2022",
+        "url": "https://www.gramedia.com/products/understand-inc-people-20-cara-menjadi-ambivert-dengan-menavigasi-4-tipe-kepribadian",
+        "is_discount": true
+    },
+    {
+        "book_id": 13,
+        "title": "Teka-Teki Gambar Aneh",
+        "isbn": "9786020687209",
+        "num_pages": 312,
+        "publish_date": "2 Feb 2026",
+        "url": "https://www.gramedia.com/products/tekateki-gambar-aneh",
+        "is_discount": true
+    },
+    {
+        "book_id": 14,
+        "title": "The Chronicles Of Narnia #1: The Magician`s Nephew (Keponakan Penyihir)",
+        "isbn": "9786020336398",
+        "num_pages": 264,
+        "publish_date": "2 Jun 2022",
+        "url": "https://www.gramedia.com/products/the-chronicles-of-narnia-1-the-magicians-nephew-keponakan-penyihir?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 15,
+        "title": "Atomic Habits: Perubahan Kecil yang Memberikan Hasil Luar Biasa",
+        "isbn": "9786020633176",
+        "num_pages": 352,
+        "publish_date": "16 Sep 2019",
+        "url": "https://www.gramedia.com/products/atomic-habits-perubahan-kecil-yang-memberikan-hasil-luar-bi",
+        "is_discount": true
+    },
+    {
+        "book_id": 16,
+        "title": "Layangan Putus",
+        "isbn": "9786020729091",
+        "num_pages": 268,
+        "publish_date": "20 Feb 2010",
+        "url": "https://www.gramedia.com/products/layangan-putus?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 17,
+        "title": "Rich Dad Poor Dad",
+        "isbn": "9786020333175",
+        "num_pages": 244,
+        "publish_date": "22 Agu 2016",
+        "url": "https://www.gramedia.com/products/rich-dad-poor-dad-edisi-revisi",
+        "is_discount": true
+    },
+    {
+        "book_id": 18,
+        "title": "Melangkah",
+        "isbn": "9786020523316",
+        "num_pages": 368,
+        "publish_date": "23 Mar 2020",
+        "url": "https://www.gramedia.com/products/melangkah-1?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 19,
+        "title": "Laut Bercerita",
+        "isbn": "9786024818722",
+        "num_pages": 400,
+        "publish_date": "3 Agu 2022",
+        "url": "https://www.gramedia.com/products/laut-bercerita-2?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 20,
+        "title": "Laut Bercerita",
+        "isbn": "9786024246945",
+        "num_pages": 400,
+        "publish_date": "21 Des 2017",
+        "url": "https://www.gramedia.com/products/laut-bercerita",
+        "is_discount": true
+    },
+    {
+        "book_id": 21,
+        "title": "Funiculi Funicula (Kōhī Ga Samenai Uchi Ni---Before the Coffee Gets Cold)",
+        "isbn": "9786020651927",
+        "num_pages": 224,
+        "publish_date": "21 Apr 2021",
+        "url": "https://www.gramedia.com/products/funiculi-funicula-kohi-ga-samenai-uchi-ni-before-the-coffee-gets-cold",
+        "is_discount": true
+    },
+    {
+        "book_id": 22,
+        "title": "The Let Them Theory",
+        "isbn": "N/A",
+        "num_pages": 328,
+        "publish_date": "10 Des 2025",
+        "url": "https://www.gramedia.com/products/the-let-them-theory",
+        "is_discount": true
+    },
+    {
+        "book_id": 23,
+        "title": "Sang Alkemis (The Alchemist)",
+        "isbn": "9786020656069",
+        "num_pages": 224,
+        "publish_date": "21 Agu 2021",
+        "url": "https://www.gramedia.com/products/sang-alkemis-the-alchemist",
+        "is_discount": true
+    },
+    {
+        "book_id": 24,
+        "title": "Keajaiban Toko Kelontong Namiya",
+        "isbn": "9786020648293",
+        "num_pages": 400,
+        "publish_date": "16 Des 2020",
+        "url": "https://www.gramedia.com/products/keajaiban-toko-kelontong-namiya-namiya-zakkaten-no-kisekithe-miracles-of-the-namiya-general-store-1",
+        "is_discount": true
+    },
+    {
+        "book_id": 25,
+        "title": "Heartbreak Motel",
+        "isbn": "9786020658841",
+        "num_pages": 400,
+        "publish_date": "8 Apr 2022",
+        "url": "https://www.gramedia.com/products/heartbreak-motel?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 26,
+        "title": "Seporsi Mie Ayam Sebelum Mati",
+        "isbn": "9786020531328",
+        "num_pages": 216,
+        "publish_date": "20 Jan 2025",
+        "url": "https://www.gramedia.com/products/seporsi-mie-ayam-sebelum-mati",
+        "is_discount": true
+    },
+    {
+        "book_id": 27,
+        "title": "Brianna dan Bottomwise",
+        "isbn": "9786022919421",
+        "num_pages": 380,
+        "publish_date": "5 Agu 2022",
+        "url": "https://www.gramedia.com/products/brianna-dan-bottomwise?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 28,
+        "title": "Home Sweet Loan",
+        "isbn": "9786020658049",
+        "num_pages": 312,
+        "publish_date": "16 Feb 2022",
+        "url": "https://www.gramedia.com/products/home-sweet-loan?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 29,
+        "title": "Sagaras",
+        "isbn": "9786239726256",
+        "num_pages": 384,
+        "publish_date": "4 Mar 2022",
+        "url": "https://www.gramedia.com/products/sagaras?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 30,
+        "title": "Perpustakaan Tengah Malam (The Midnight Library)",
+        "isbn": "9786020649320",
+        "num_pages": 368,
+        "publish_date": "10 Jun 2021",
+        "url": "https://www.gramedia.com/products/perpustakaan-tengah-malam-the-midnight-library?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 31,
+        "title": "Ensiklopedia 4D: Tubuh Manusia",
+        "isbn": "9786020629544",
+        "num_pages": 88,
+        "publish_date": "6 Apr 2020",
+        "url": "https://www.gramedia.com/products/ensiklopedia-4d-tubuh-manusia?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    }
+]

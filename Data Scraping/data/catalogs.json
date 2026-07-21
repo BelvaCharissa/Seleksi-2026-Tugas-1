@@ -1,0 +1,14 @@
+[
+    {
+        "catalog_id": 1,
+        "catalog_name": "Novel Fiksi Terfavorit"
+    },
+    {
+        "catalog_id": 2,
+        "catalog_name": "Komik Terfavorit"
+    },
+    {
+        "catalog_id": 3,
+        "catalog_name": "Buku Anak Terfavorit"
+    }
+]

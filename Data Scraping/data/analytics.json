@@ -1,0 +1,219 @@
+[
+    {
+        "book_id": 1,
+        "author_name": "TARA WESTOVER",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 0
+    },
+    {
+        "book_id": 2,
+        "author_name": "Keigo Higashino",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 101250
+    },
+    {
+        "book_id": 3,
+        "author_name": "C. S. Lewis",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 20700
+    },
+    {
+        "book_id": 4,
+        "author_name": "Ita krn",
+        "publisher_name": "Kawah Media",
+        "format_type": "Soft Cover",
+        "price_idr": 92650
+    },
+    {
+        "book_id": 5,
+        "author_name": "Leila S. Chudori",
+        "publisher_name": "Kepustakaan Populer Gramedia",
+        "format_type": "Soft Cover",
+        "price_idr": 92000
+    },
+    {
+        "book_id": 6,
+        "author_name": "Durian Sukegawa",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 66750
+    },
+    {
+        "book_id": 7,
+        "author_name": "Toshikazu Kawaguchi",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 56000
+    },
+    {
+        "book_id": 8,
+        "author_name": "Cho Nam-Joo",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 48300
+    },
+    {
+        "book_id": 9,
+        "author_name": "Soji Shimada",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 78750
+    },
+    {
+        "book_id": 10,
+        "author_name": "Sohn Won - Pyung",
+        "publisher_name": "Nan Giho",
+        "format_type": "Soft Cover",
+        "price_idr": 66000
+    },
+    {
+        "book_id": 11,
+        "author_name": "Sara Wijayanto",
+        "publisher_name": "Elex Media Komputindo",
+        "format_type": "Soft Cover",
+        "price_idr": 75000
+    },
+    {
+        "book_id": 12,
+        "author_name": "Erwin Parengkuan",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 35100
+    },
+    {
+        "book_id": 13,
+        "author_name": "Uketsu",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 79200
+    },
+    {
+        "book_id": 14,
+        "author_name": "C. S. Lewis",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 69000
+    },
+    {
+        "book_id": 15,
+        "author_name": "James Clear",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 86400
+    },
+    {
+        "book_id": 16,
+        "author_name": "MOMMY ASF",
+        "publisher_name": "Rdm Publishers",
+        "format_type": "Soft Cover",
+        "price_idr": 67500
+    },
+    {
+        "book_id": 17,
+        "author_name": "Robert T. Kiyosaki",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 54400
+    },
+    {
+        "book_id": 18,
+        "author_name": "J.S. Khairen",
+        "publisher_name": "Gramedia Widiasarana Indonesia",
+        "format_type": "Soft Cover",
+        "price_idr": 74250
+    },
+    {
+        "book_id": 19,
+        "author_name": "Leila S. Chudori",
+        "publisher_name": "Kepustakaan Populer Gramedia",
+        "format_type": "Soft Cover",
+        "price_idr": 152000
+    },
+    {
+        "book_id": 20,
+        "author_name": "Leila S. Chudori",
+        "publisher_name": "Kepustakaan Populer Gramedia",
+        "format_type": "Soft Cover",
+        "price_idr": 92000
+    },
+    {
+        "book_id": 21,
+        "author_name": "Toshikazu Kawaguchi",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 56000
+    },
+    {
+        "book_id": 22,
+        "author_name": "Mel Robbins",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 95200
+    },
+    {
+        "book_id": 23,
+        "author_name": "Paulo Coelho",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 55200
+    },
+    {
+        "book_id": 24,
+        "author_name": "Keigo Higashino",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 111200
+    },
+    {
+        "book_id": 25,
+        "author_name": "Ika Natassa",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 69300
+    },
+    {
+        "book_id": 26,
+        "author_name": "Brian Khrisna",
+        "publisher_name": "Gramedia Widiasarana Indonesia",
+        "format_type": "Soft Cover",
+        "price_idr": 74400
+    },
+    {
+        "book_id": 27,
+        "author_name": "Andrea Hirata",
+        "publisher_name": "Bentang Pustaka",
+        "format_type": "Soft Cover",
+        "price_idr": 103500
+    },
+    {
+        "book_id": 28,
+        "author_name": "Almira Bastari",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 74250
+    },
+    {
+        "book_id": 29,
+        "author_name": "Tere Liye",
+        "publisher_name": "PENERBIT SABAK GRIP",
+        "format_type": "Soft Cover",
+        "price_idr": 98100
+    },
+    {
+        "book_id": 30,
+        "author_name": "Matt Haig",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 84000
+    },
+    {
+        "book_id": 31,
+        "author_name": "Devar Entertainment",
+        "publisher_name": "Gramedia Pustaka Utama",
+        "format_type": "Soft Cover",
+        "price_idr": 65600
+    }
+]
