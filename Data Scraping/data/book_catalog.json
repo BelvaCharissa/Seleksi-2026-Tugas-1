@@ -117,11 +117,11 @@
     },
     {
         "book_id": 30,
-        "catalog_id": 1
+        "catalog_id": 2
     },
     {
         "book_id": 31,
-        "catalog_id": 1
+        "catalog_id": 2
     },
     {
         "book_id": 32,
@@ -316,43 +316,15 @@
         "catalog_id": 2
     },
     {
-        "book_id": 80,
-        "catalog_id": 2
-    },
-    {
-        "book_id": 81,
-        "catalog_id": 2
-    },
-    {
-        "book_id": 15,
-        "catalog_id": 3
-    },
-    {
         "book_id": 21,
         "catalog_id": 3
     },
     {
-        "book_id": 25,
+        "book_id": 9,
         "catalog_id": 3
     },
     {
-        "book_id": 10,
-        "catalog_id": 3
-    },
-    {
-        "book_id": 82,
-        "catalog_id": 3
-    },
-    {
-        "book_id": 28,
-        "catalog_id": 3
-    },
-    {
-        "book_id": 19,
-        "catalog_id": 3
-    },
-    {
-        "book_id": 17,
+        "book_id": 26,
         "catalog_id": 3
     },
     {
@@ -360,11 +332,27 @@
         "catalog_id": 3
     },
     {
+        "book_id": 4,
+        "catalog_id": 3
+    },
+    {
+        "book_id": 22,
+        "catalog_id": 3
+    },
+    {
         "book_id": 16,
         "catalog_id": 3
     },
     {
-        "book_id": 20,
+        "book_id": 28,
+        "catalog_id": 3
+    },
+    {
+        "book_id": 80,
+        "catalog_id": 3
+    },
+    {
+        "book_id": 18,
         "catalog_id": 3
     }
 ]
