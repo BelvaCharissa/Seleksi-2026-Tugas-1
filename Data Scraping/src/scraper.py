@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 
 def save_json(data, filename):
@@ -21,7 +24,7 @@ def save_json(data, filename):
 # GANTI url di bawah sesuai catalog best-seller lain yang sebenarnya kamu mau ambil.
 CATALOGS = [
     {"catalog_id": 1, "catalog_name": "Novel Fiksi Terfavorit", "url": "https://www.gramedia.com/best-seller/novel-fiksi/"},
-    {"catalog_id": 2, "catalog_name": "Komik Terfavorit", "url": "https://www.gramedia.com/best-seller/komik/"},
+    {"catalog_id": 2, "catalog_name": "Komik Terfavorit", "url": "https://www.gramedia.com/categories/buku/komik"},
     {"catalog_id": 3, "catalog_name": "Buku Anak Terfavorit", "url": "https://www.gramedia.com/best-seller/buku-anak/"},
 ]
 
@@ -58,42 +61,98 @@ def collect_product_links(driver, catalog_url, limit=100):
             if len(target_links) >= limit:
                 break
     except Exception:
-        print("[!] Tombol 'Lainnya' tidak ditemukan di catalog ini. Lanjut dengan data yang ada.")
+        print("[!] Tombol 'Lainnya' tidak ditemukan di catalog ini.")
+
+    # Fallback: halaman kategori biasa (mis. /categories/buku/komik) tidak
+    # punya tombol 'Lihat Buku'/'Lainnya' -- produk langsung tampil di grid
+    # halaman itu sendiri. Scroll beberapa kali dulu memancing lazy-load,
+    # baru ambil semua link produk yang tampak.
+    if not target_links:
+        print("[!] Tidak ada tombol navigasi khusus, ambil langsung dari grid halaman ini.")
+        for _ in range(3):
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(2)
+        product_elements = driver.find_elements(By.CSS_SELECTOR, "a[href*='/products/']")
+        for prod in product_elements:
+            href = prod.get_attribute("href")
+            if href:
+                target_links.add(href)
+            if len(target_links) >= limit:
+                break
+
+        # Kalau MASIH kosong, print diagnostik biar ketahuan penyebabnya
+        # (misal ada popup consent yang nutupin halaman, atau produknya
+        # memang render dengan pola link yang berbeda sama sekali).
+        if not target_links:
+            all_anchors = driver.find_elements(By.TAG_NAME, "a")
+            sample_hrefs = [a.get_attribute("href") for a in all_anchors[:15] if a.get_attribute("href")]
+            print(f"     [DEBUG] Judul halaman saat ini: {driver.title!r}")
+            print(f"     [DEBUG] Total tag <a> di halaman: {len(all_anchors)}")
+            print(f"     [DEBUG] Contoh 15 href pertama: {sample_hrefs}")
 
     return list(target_links)[:limit]
 
 
 def detect_discount(soup, final_price):
     """Deteksi apakah produk ini sedang diskon.
-    Multi-fallback karena testid harga coret Gramedia belum pasti - sesuaikan
-    lagi kalau setelah cek HTML asli testid-nya beda."""
+
+    Testid ini dikonfirmasi langsung dari HTML asli Gramedia:
+    - productDetailSlicePrice  -> harga SEBELUM diskon (dicoret, class 'line-through')
+    - productDetailDiscount    -> label badge persentase diskon, misal "20%"
+    - productDetailFinalPrice  -> harga akhir yang dibayar (sudah dipakai di extract_book_detail)
+
+    Kalau salah satu dari dua penanda itu ada, produk dianggap diskon.
+    """
     original_price = None
-    original_price_tag = (
-        soup.find(attrs={"data-testid": "productDetailInitialPrice"})
-        or soup.find(attrs={"data-testid": "productDetailOriginalPrice"})
-        or soup.find(attrs={"data-testid": "productDetailStrikethroughPrice"})
-        or soup.find("s")
-        or soup.find(class_=re.compile(r"strike|line-through", re.I))
-    )
+    original_price_tag = soup.find(attrs={"data-testid": "productDetailSlicePrice"})
     if original_price_tag:
         try:
             original_price = int(re.sub(r"\D", "", original_price_tag.text))
         except Exception:
             original_price = None
 
-    discount_badge = soup.find(attrs={"data-testid": "productDetailDiscountBadge"}) or soup.find(
-        string=re.compile(r"(hemat|diskon|-\s*\d+%)", re.I)
-    )
+    discount_badge = soup.find(attrs={"data-testid": "productDetailDiscount"})
 
     if (original_price and final_price and original_price > final_price) or discount_badge:
         return True
     return False
 
 
-def extract_book_detail(driver, link):
-    """Parsing satu halaman detail produk. Return None kalau gagal parse."""
-    driver.get(link)
-    time.sleep(2)  # beri waktu render SPA agar data-testid muncul sempurna
+def extract_book_detail(driver, link, max_attempts=3):
+    """Parsing satu halaman detail produk. Return None kalau gagal parse.
+
+    Retry sampai max_attempts kali kalau harga masih kebaca 0 -- ini
+    mengatasi kasus dimana elemen HTML-nya sudah ada di DOM tapi teksnya
+    belum sempat terisi angka (render SPA dua tahap: elemen muncul dulu,
+    baru datanya nyusul beberapa saat kemudian).
+    """
+    for attempt in range(1, max_attempts + 1):
+        driver.get(link)
+
+        try:
+            WebDriverWait(driver, 15).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='productDetailFinalPrice']"))
+            )
+        except TimeoutException:
+            print(f"     [!] (percobaan {attempt}) Elemen harga gak muncul dalam 15 detik untuk {link}")
+
+        # Beri jeda tambahan supaya teks di dalam elemen sempat terisi,
+        # bukan cuma elemennya doang yang sudah ada.
+        time.sleep(1.5)
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        price_tag = soup.find(attrs={"data-testid": "productDetailFinalPrice"})
+        price_text = price_tag.text.strip() if price_tag else ""
+        price_digits = re.sub(r"\D", "", price_text)
+
+        if price_digits and int(price_digits) > 0:
+            break  # berhasil dapat harga valid, keluar dari retry loop
+
+        if attempt < max_attempts:
+            print(f"     [!] (percobaan {attempt}) Harga masih 0/kosong, coba lagi ({attempt + 1}/{max_attempts})...")
+            time.sleep(2)
+    else:
+        print(f"     [!] Harga tetap 0 setelah {max_attempts} percobaan untuk {link}, lanjut apa adanya.")
 
     soup = BeautifulSoup(driver.page_source, "html.parser")
 

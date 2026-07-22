@@ -1,267 +1,6 @@
 [
     {
         "book_id": 1,
-        "title": "Educated (Terdidik): Sebuah Memoar",
-        "isbn": "9786020650357",
-        "num_pages": 520,
-        "publish_date": "14 Apr 2021",
-        "url": "https://www.gramedia.com/products/terdidik-educated-sebuah-memoar?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 2,
-        "title": "Black Showman Dan Pembunuhan Di Kota Tak Bernama",
-        "isbn": "9786020657691",
-        "num_pages": 516,
-        "publish_date": "22 Des 2021",
-        "url": "https://www.gramedia.com/products/black-showman-dan-pembunuhan-di-kota-tak-bernama?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 3,
-        "title": "The Chronicles of Narnia #3: The Horse & His Boy (Kuda dan Anak Manusia)",
-        "isbn": "9786020336411",
-        "num_pages": 312,
-        "publish_date": "2 Jun 2022",
-        "url": "https://www.gramedia.com/products/the-chronicles-of-narnia-3-the-horse-his-boy-kuda-dan-anak-manusia?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 4,
-        "title": "Eccedentesiast",
-        "isbn": "9786235953106",
-        "num_pages": 356,
-        "publish_date": "27 Apr 2022",
-        "url": "https://www.gramedia.com/products/eccedentesiast?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 5,
-        "title": "Laut Bercerita",
-        "isbn": "9786024246945",
-        "num_pages": 400,
-        "publish_date": "21 Des 2017",
-        "url": "https://www.gramedia.com/products/laut-bercerita?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
-        "is_discount": true
-    },
-    {
-        "book_id": 6,
-        "title": "Pasta Kacang Merah (An Sweet Bean Paste)",
-        "isbn": "9786020665078",
-        "num_pages": 240,
-        "publish_date": "6 Okt 2022",
-        "url": "https://www.gramedia.com/products/pasta-kacang-merah-an-sweet-bean-paste?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 7,
-        "title": "Funiculi Funicula (Kōhī Ga Samenai Uchi Ni---Before the Coffee Gets Cold)",
-        "isbn": "9786020651927",
-        "num_pages": 224,
-        "publish_date": "21 Apr 2021",
-        "url": "https://www.gramedia.com/products/funiculi-funicula-kohi-ga-samenai-uchi-ni-before-the-coffee-gets-cold?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 8,
-        "title": "Kim Ji-Yeong Lahir Tahun 1982",
-        "isbn": "9786020636191",
-        "num_pages": 192,
-        "publish_date": "11 Nov 2019",
-        "url": "https://www.gramedia.com/products/kim-ji-yeong-lahir-tahun-1982?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
-        "is_discount": true
-    },
-    {
-        "book_id": 9,
-        "title": "Pembunuhan di Rumah Miring (Murder in the Crooked House)",
-        "isbn": "9786020638447",
-        "num_pages": 400,
-        "publish_date": "23 Mar 2020",
-        "url": "https://www.gramedia.com/products/pembunuhan-di-rumah-miring-murder-in-the-crooked-house?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 10,
-        "title": "Almond",
-        "isbn": "9786020519807",
-        "num_pages": 232,
-        "publish_date": "1 Apr 2019",
-        "url": "https://www.gramedia.com/products/almond?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
-        "is_discount": true
-    },
-    {
-        "book_id": 11,
-        "title": "Wingit",
-        "isbn": "9786230021831",
-        "num_pages": 256,
-        "publish_date": "16 Des 2020",
-        "url": "https://www.gramedia.com/products/wingit?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
-        "is_discount": true
-    },
-    {
-        "book_id": 12,
-        "title": "Understand-Inc People 2.0: Cara Menjadi Ambivert dengan Menavigasi 4 Tipe Kepribadian",
-        "isbn": "9786020659107",
-        "num_pages": 160,
-        "publish_date": "17 Feb 2022",
-        "url": "https://www.gramedia.com/products/understand-inc-people-20-cara-menjadi-ambivert-dengan-menavigasi-4-tipe-kepribadian",
-        "is_discount": true
-    },
-    {
-        "book_id": 13,
-        "title": "Teka-Teki Gambar Aneh",
-        "isbn": "9786020687209",
-        "num_pages": 312,
-        "publish_date": "2 Feb 2026",
-        "url": "https://www.gramedia.com/products/tekateki-gambar-aneh",
-        "is_discount": true
-    },
-    {
-        "book_id": 14,
-        "title": "The Chronicles Of Narnia #1: The Magician`s Nephew (Keponakan Penyihir)",
-        "isbn": "9786020336398",
-        "num_pages": 264,
-        "publish_date": "2 Jun 2022",
-        "url": "https://www.gramedia.com/products/the-chronicles-of-narnia-1-the-magicians-nephew-keponakan-penyihir?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 15,
-        "title": "Atomic Habits: Perubahan Kecil yang Memberikan Hasil Luar Biasa",
-        "isbn": "9786020633176",
-        "num_pages": 352,
-        "publish_date": "16 Sep 2019",
-        "url": "https://www.gramedia.com/products/atomic-habits-perubahan-kecil-yang-memberikan-hasil-luar-bi",
-        "is_discount": true
-    },
-    {
-        "book_id": 16,
-        "title": "Layangan Putus",
-        "isbn": "9786020729091",
-        "num_pages": 268,
-        "publish_date": "20 Feb 2010",
-        "url": "https://www.gramedia.com/products/layangan-putus?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 17,
-        "title": "Rich Dad Poor Dad",
-        "isbn": "9786020333175",
-        "num_pages": 244,
-        "publish_date": "22 Agu 2016",
-        "url": "https://www.gramedia.com/products/rich-dad-poor-dad-edisi-revisi",
-        "is_discount": true
-    },
-    {
-        "book_id": 18,
-        "title": "Melangkah",
-        "isbn": "9786020523316",
-        "num_pages": 368,
-        "publish_date": "23 Mar 2020",
-        "url": "https://www.gramedia.com/products/melangkah-1?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 19,
-        "title": "Laut Bercerita",
-        "isbn": "9786024818722",
-        "num_pages": 400,
-        "publish_date": "3 Agu 2022",
-        "url": "https://www.gramedia.com/products/laut-bercerita-2?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 20,
-        "title": "Laut Bercerita",
-        "isbn": "9786024246945",
-        "num_pages": 400,
-        "publish_date": "21 Des 2017",
-        "url": "https://www.gramedia.com/products/laut-bercerita",
-        "is_discount": true
-    },
-    {
-        "book_id": 21,
-        "title": "Funiculi Funicula (Kōhī Ga Samenai Uchi Ni---Before the Coffee Gets Cold)",
-        "isbn": "9786020651927",
-        "num_pages": 224,
-        "publish_date": "21 Apr 2021",
-        "url": "https://www.gramedia.com/products/funiculi-funicula-kohi-ga-samenai-uchi-ni-before-the-coffee-gets-cold",
-        "is_discount": true
-    },
-    {
-        "book_id": 22,
-        "title": "The Let Them Theory",
-        "isbn": "N/A",
-        "num_pages": 328,
-        "publish_date": "10 Des 2025",
-        "url": "https://www.gramedia.com/products/the-let-them-theory",
-        "is_discount": true
-    },
-    {
-        "book_id": 23,
-        "title": "Sang Alkemis (The Alchemist)",
-        "isbn": "9786020656069",
-        "num_pages": 224,
-        "publish_date": "21 Agu 2021",
-        "url": "https://www.gramedia.com/products/sang-alkemis-the-alchemist",
-        "is_discount": true
-    },
-    {
-        "book_id": 24,
-        "title": "Keajaiban Toko Kelontong Namiya",
-        "isbn": "9786020648293",
-        "num_pages": 400,
-        "publish_date": "16 Des 2020",
-        "url": "https://www.gramedia.com/products/keajaiban-toko-kelontong-namiya-namiya-zakkaten-no-kisekithe-miracles-of-the-namiya-general-store-1",
-        "is_discount": true
-    },
-    {
-        "book_id": 25,
-        "title": "Heartbreak Motel",
-        "isbn": "9786020658841",
-        "num_pages": 400,
-        "publish_date": "8 Apr 2022",
-        "url": "https://www.gramedia.com/products/heartbreak-motel?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 26,
-        "title": "Seporsi Mie Ayam Sebelum Mati",
-        "isbn": "9786020531328",
-        "num_pages": 216,
-        "publish_date": "20 Jan 2025",
-        "url": "https://www.gramedia.com/products/seporsi-mie-ayam-sebelum-mati",
-        "is_discount": true
-    },
-    {
-        "book_id": 27,
-        "title": "Brianna dan Bottomwise",
-        "isbn": "9786022919421",
-        "num_pages": 380,
-        "publish_date": "5 Agu 2022",
-        "url": "https://www.gramedia.com/products/brianna-dan-bottomwise?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 28,
-        "title": "Home Sweet Loan",
-        "isbn": "9786020658049",
-        "num_pages": 312,
-        "publish_date": "16 Feb 2022",
-        "url": "https://www.gramedia.com/products/home-sweet-loan?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 29,
-        "title": "Sagaras",
-        "isbn": "9786239726256",
-        "num_pages": 384,
-        "publish_date": "4 Mar 2022",
-        "url": "https://www.gramedia.com/products/sagaras?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
-        "is_discount": true
-    },
-    {
-        "book_id": 30,
         "title": "Perpustakaan Tengah Malam (The Midnight Library)",
         "isbn": "9786020649320",
         "num_pages": 368,
@@ -270,7 +9,727 @@
         "is_discount": true
     },
     {
+        "book_id": 2,
+        "title": "Shaka Oh Shaka",
+        "isbn": "9786235953014",
+        "num_pages": 268,
+        "publish_date": "31 Jan 2022",
+        "url": "https://www.gramedia.com/products/shaka-oh-shaka?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 3,
+        "title": "Black Showman Dan Pembunuhan Di Kota Tak Bernama",
+        "isbn": "9786020657691",
+        "num_pages": 516,
+        "publish_date": "22 Des 2021",
+        "url": "https://www.gramedia.com/products/black-showman-dan-pembunuhan-di-kota-tak-bernama?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 4,
+        "title": "Wingit",
+        "isbn": "9786230021831",
+        "num_pages": 256,
+        "publish_date": "16 Des 2020",
+        "url": "https://www.gramedia.com/products/wingit?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 5,
+        "title": "Melangkah",
+        "isbn": "9786020523316",
+        "num_pages": 368,
+        "publish_date": "23 Mar 2020",
+        "url": "https://www.gramedia.com/products/melangkah-1?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 6,
+        "title": "Brianna dan Bottomwise",
+        "isbn": "9786022919421",
+        "num_pages": 380,
+        "publish_date": "5 Agu 2022",
+        "url": "https://www.gramedia.com/products/brianna-dan-bottomwise?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 7,
+        "title": "The Chronicles of Narnia #3: The Horse & His Boy (Kuda dan Anak Manusia)",
+        "isbn": "9786020336411",
+        "num_pages": 312,
+        "publish_date": "2 Jun 2022",
+        "url": "https://www.gramedia.com/products/the-chronicles-of-narnia-3-the-horse-his-boy-kuda-dan-anak-manusia?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 8,
+        "title": "Atomic Habits: Perubahan Kecil yang Memberikan Hasil Luar Biasa",
+        "isbn": "9786020633176",
+        "num_pages": 352,
+        "publish_date": "16 Sep 2019",
+        "url": "https://www.gramedia.com/products/atomic-habits-perubahan-kecil-yang-memberikan-hasil-luar-bi",
+        "is_discount": true
+    },
+    {
+        "book_id": 9,
+        "title": "Laut Bercerita",
+        "isbn": "9786024818722",
+        "num_pages": 400,
+        "publish_date": "3 Agu 2022",
+        "url": "https://www.gramedia.com/products/laut-bercerita-2?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 10,
+        "title": "Keajaiban Toko Kelontong Namiya",
+        "isbn": "9786020648293",
+        "num_pages": 400,
+        "publish_date": "16 Des 2020",
+        "url": "https://www.gramedia.com/products/keajaiban-toko-kelontong-namiya-namiya-zakkaten-no-kisekithe-miracles-of-the-namiya-general-store-1",
+        "is_discount": true
+    },
+    {
+        "book_id": 11,
+        "title": "Pembunuhan di Rumah Miring (Murder in the Crooked House)",
+        "isbn": "9786020638447",
+        "num_pages": 400,
+        "publish_date": "23 Mar 2020",
+        "url": "https://www.gramedia.com/products/pembunuhan-di-rumah-miring-murder-in-the-crooked-house?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 12,
+        "title": "Layangan Putus",
+        "isbn": "9786020729091",
+        "num_pages": 268,
+        "publish_date": "20 Feb 2010",
+        "url": "https://www.gramedia.com/products/layangan-putus?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 13,
+        "title": "Kim Ji-Yeong Lahir Tahun 1982",
+        "isbn": "9786020636191",
+        "num_pages": 192,
+        "publish_date": "11 Nov 2019",
+        "url": "https://www.gramedia.com/products/kim-ji-yeong-lahir-tahun-1982?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 14,
+        "title": "Heartbreak Motel",
+        "isbn": "9786020658841",
+        "num_pages": 400,
+        "publish_date": "8 Apr 2022",
+        "url": "https://www.gramedia.com/products/heartbreak-motel?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 15,
+        "title": "Seporsi Mie Ayam Sebelum Mati",
+        "isbn": "9786020531328",
+        "num_pages": 216,
+        "publish_date": "20 Jan 2025",
+        "url": "https://www.gramedia.com/products/seporsi-mie-ayam-sebelum-mati",
+        "is_discount": true
+    },
+    {
+        "book_id": 16,
+        "title": "Laut Bercerita",
+        "isbn": "9786024246945",
+        "num_pages": 400,
+        "publish_date": "21 Des 2017",
+        "url": "https://www.gramedia.com/products/laut-bercerita",
+        "is_discount": true
+    },
+    {
+        "book_id": 17,
+        "title": "Teka-Teki Gambar Aneh",
+        "isbn": "9786020687209",
+        "num_pages": 312,
+        "publish_date": "2 Feb 2026",
+        "url": "https://www.gramedia.com/products/tekateki-gambar-aneh",
+        "is_discount": true
+    },
+    {
+        "book_id": 18,
+        "title": "Eccedentesiast",
+        "isbn": "9786235953106",
+        "num_pages": 356,
+        "publish_date": "27 Apr 2022",
+        "url": "https://www.gramedia.com/products/eccedentesiast?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 19,
+        "title": "Sang Alkemis (The Alchemist)",
+        "isbn": "9786020656069",
+        "num_pages": 224,
+        "publish_date": "21 Agu 2021",
+        "url": "https://www.gramedia.com/products/sang-alkemis-the-alchemist",
+        "is_discount": true
+    },
+    {
+        "book_id": 20,
+        "title": "Funiculi Funicula (Kōhī Ga Samenai Uchi Ni---Before the Coffee Gets Cold)",
+        "isbn": "9786020651927",
+        "num_pages": 224,
+        "publish_date": "21 Apr 2021",
+        "url": "https://www.gramedia.com/products/funiculi-funicula-kohi-ga-samenai-uchi-ni-before-the-coffee-gets-cold",
+        "is_discount": true
+    },
+    {
+        "book_id": 21,
+        "title": "Rich Dad Poor Dad",
+        "isbn": "9786020333175",
+        "num_pages": 244,
+        "publish_date": "22 Agu 2016",
+        "url": "https://www.gramedia.com/products/rich-dad-poor-dad-edisi-revisi",
+        "is_discount": true
+    },
+    {
+        "book_id": 22,
+        "title": "Funiculi Funicula (Kōhī Ga Samenai Uchi Ni---Before the Coffee Gets Cold)",
+        "isbn": "9786020651927",
+        "num_pages": 224,
+        "publish_date": "21 Apr 2021",
+        "url": "https://www.gramedia.com/products/funiculi-funicula-kohi-ga-samenai-uchi-ni-before-the-coffee-gets-cold?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 23,
+        "title": "Sagaras",
+        "isbn": "9786239726256",
+        "num_pages": 384,
+        "publish_date": "4 Mar 2022",
+        "url": "https://www.gramedia.com/products/sagaras?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 24,
+        "title": "Home Sweet Loan",
+        "isbn": "9786020658049",
+        "num_pages": 312,
+        "publish_date": "16 Feb 2022",
+        "url": "https://www.gramedia.com/products/home-sweet-loan?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 25,
+        "title": "The Let Them Theory",
+        "isbn": "N/A",
+        "num_pages": 328,
+        "publish_date": "10 Des 2025",
+        "url": "https://www.gramedia.com/products/the-let-them-theory",
+        "is_discount": true
+    },
+    {
+        "book_id": 26,
+        "title": "The Chronicles Of Narnia #1: The Magician`s Nephew (Keponakan Penyihir)",
+        "isbn": "9786020336398",
+        "num_pages": 264,
+        "publish_date": "2 Jun 2022",
+        "url": "https://www.gramedia.com/products/the-chronicles-of-narnia-1-the-magicians-nephew-keponakan-penyihir?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": false
+    },
+    {
+        "book_id": 27,
+        "title": "Educated (Terdidik): Sebuah Memoar",
+        "isbn": "9786020650357",
+        "num_pages": 520,
+        "publish_date": "14 Apr 2021",
+        "url": "https://www.gramedia.com/products/terdidik-educated-sebuah-memoar?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 28,
+        "title": "Understand-Inc People 2.0: Cara Menjadi Ambivert dengan Menavigasi 4 Tipe Kepribadian",
+        "isbn": "9786020659107",
+        "num_pages": 160,
+        "publish_date": "17 Feb 2022",
+        "url": "https://www.gramedia.com/products/understand-inc-people-20-cara-menjadi-ambivert-dengan-menavigasi-4-tipe-kepribadian",
+        "is_discount": true
+    },
+    {
+        "book_id": 29,
+        "title": "Pasta Kacang Merah (An Sweet Bean Paste)",
+        "isbn": "9786020665078",
+        "num_pages": 240,
+        "publish_date": "6 Okt 2022",
+        "url": "https://www.gramedia.com/products/pasta-kacang-merah-an-sweet-bean-paste?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=BestSellerRekomendasi",
+        "is_discount": true
+    },
+    {
+        "book_id": 30,
+        "title": "Laut Bercerita",
+        "isbn": "9786024246945",
+        "num_pages": 400,
+        "publish_date": "21 Des 2017",
+        "url": "https://www.gramedia.com/products/laut-bercerita?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
         "book_id": 31,
+        "title": "Almond",
+        "isbn": "9786020519807",
+        "num_pages": 232,
+        "publish_date": "1 Apr 2019",
+        "url": "https://www.gramedia.com/products/almond?utm_source=bestseller&utm_medium=bestsellerbuku&utm_campaign=seo&utm_content=Best_Seller_Buku",
+        "is_discount": true
+    },
+    {
+        "book_id": 32,
+        "title": "Koloni Rajasa and the Flag Bearer",
+        "isbn": "9786230314810",
+        "num_pages": 184,
+        "publish_date": "27 Okt 2024",
+        "url": "https://www.gramedia.com/products/koloni-rajasa-and-the-flag-bearer",
+        "is_discount": false
+    },
+    {
+        "book_id": 33,
+        "title": "Rondaman: Setan Kena Mental",
+        "isbn": "9786347205148",
+        "num_pages": 143,
+        "publish_date": "2 Apr 2026",
+        "url": "https://www.gramedia.com/products/rondaman-setan-kena-mental",
+        "is_discount": true
+    },
+    {
+        "book_id": 34,
+        "title": "Bertahan",
+        "isbn": "9786235235073",
+        "num_pages": 128,
+        "publish_date": "15 Mei 2025",
+        "url": "https://www.gramedia.com/products/bertahan-1",
+        "is_discount": true
+    },
+    {
+        "book_id": 35,
+        "title": "The Familiar: Sang Karib",
+        "isbn": "9786231345936",
+        "num_pages": 504,
+        "publish_date": "25 Jun 2026",
+        "url": "https://www.gramedia.com/products/the-familiar-sang-karib",
+        "is_discount": false
+    },
+    {
+        "book_id": 36,
+        "title": "Omen - Komik",
+        "isbn": "9786020673745",
+        "num_pages": 200,
+        "publish_date": "18 Feb 2026",
+        "url": "https://www.gramedia.com/products/omen--komik",
+        "is_discount": false
+    },
+    {
+        "book_id": 37,
+        "title": "Light Novel: The Apothecary Diaries Vol. 02 - Jinshi Sama, Premium Package",
+        "isbn": "N/A",
+        "num_pages": 320,
+        "publish_date": "15 Jul 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-apothecary-diaries-vol-02--jinshi-sama-premium-package",
+        "is_discount": false
+    },
+    {
+        "book_id": 38,
+        "title": "Light Novel: The Apothecary Diaries Vol. 01 - Jishi Sama, Premium Package",
+        "isbn": "N/A",
+        "num_pages": 308,
+        "publish_date": "9 Jan 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-apothecary-diaries-vol-01--jishi-sama-premium-package",
+        "is_discount": true
+    },
+    {
+        "book_id": 39,
+        "title": "Dedes Babak 2",
+        "isbn": "N/A",
+        "num_pages": 376,
+        "publish_date": "11 Mei 2026",
+        "url": "https://www.gramedia.com/products/dedes-babak-2",
+        "is_discount": false
+    },
+    {
+        "book_id": 40,
+        "title": "Light Novel : Scarlet",
+        "isbn": "9786347375575",
+        "num_pages": 256,
+        "publish_date": "8 Des 2025",
+        "url": "https://www.gramedia.com/products/light-novel--scarlet",
+        "is_discount": false
+    },
+    {
+        "book_id": 41,
+        "title": "Light Novel Mushoku Tensei – Jobless Reincarnation 05",
+        "isbn": "9786347574190",
+        "num_pages": 332,
+        "publish_date": "5 Mar 2026",
+        "url": "https://www.gramedia.com/products/light-novel-mushoku-tensei--jobless-reincarnation-05",
+        "is_discount": false
+    },
+    {
+        "book_id": 42,
+        "title": "Soloist in a Cage 2",
+        "isbn": "9786230077784",
+        "num_pages": 230,
+        "publish_date": "5 Mei 2026",
+        "url": "https://www.gramedia.com/products/soloist-in-a-cage-2",
+        "is_discount": true
+    },
+    {
+        "book_id": 43,
+        "title": "Bandits of Batavia",
+        "isbn": "9786230078538",
+        "num_pages": 64,
+        "publish_date": "26 Jun 2026",
+        "url": "https://www.gramedia.com/products/bandits-of-batavia",
+        "is_discount": false
+    },
+    {
+        "book_id": 44,
+        "title": "Martin & Friends",
+        "isbn": "N/A",
+        "num_pages": 172,
+        "publish_date": "10 Jun 2025",
+        "url": "https://www.gramedia.com/products/martin--friends",
+        "is_discount": true
+    },
+    {
+        "book_id": 45,
+        "title": "Yuyu Hakusho Premium 03",
+        "isbn": "9786230078309",
+        "num_pages": 304,
+        "publish_date": "9 Jun 2026",
+        "url": "https://www.gramedia.com/products/yuyu-hakusho-premium-03",
+        "is_discount": false
+    },
+    {
+        "book_id": 46,
+        "title": "Light Novel: The Apothecary Diaries Vol. 02 - Maomao, Special Package",
+        "isbn": "N/A",
+        "num_pages": 320,
+        "publish_date": "22 Jul 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-apothecary-diaries-vol-02--maomao-special-package",
+        "is_discount": false
+    },
+    {
+        "book_id": 47,
+        "title": "Light Novel: The Summer Hikaru Died 2 Special Set",
+        "isbn": "N/A",
+        "num_pages": 226,
+        "publish_date": "22 Apr 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-summer-hikaru-died-2-special-set",
+        "is_discount": false
+    },
+    {
+        "book_id": 48,
+        "title": "Light Novel: Re:Zero - Starting Life in Another World - 22",
+        "isbn": "9786347574282",
+        "num_pages": 352,
+        "publish_date": "12 Mei 2026",
+        "url": "https://www.gramedia.com/products/light-novel-rezero--starting-life-in-another-world--22",
+        "is_discount": false
+    },
+    {
+        "book_id": 49,
+        "title": "Muros",
+        "isbn": "9786238956180",
+        "num_pages": 148,
+        "publish_date": "28 Agu 2025",
+        "url": "https://www.gramedia.com/products/muros",
+        "is_discount": true
+    },
+    {
+        "book_id": 50,
+        "title": "Soloist in a Cage 1",
+        "isbn": "9786230074141",
+        "num_pages": 230,
+        "publish_date": "9 Jan 2026",
+        "url": "https://www.gramedia.com/products/soloist-in-a-cage-1",
+        "is_discount": true
+    },
+    {
+        "book_id": 51,
+        "title": "I Parry Everything #2",
+        "isbn": "9786230319907",
+        "num_pages": 312,
+        "publish_date": "6 Mei 2026",
+        "url": "https://www.gramedia.com/products/i-parry-everything-2",
+        "is_discount": true
+    },
+    {
+        "book_id": 52,
+        "title": "Buddha 6: Ananda",
+        "isbn": "9786231340535",
+        "num_pages": 368,
+        "publish_date": "15 Okt 2024",
+        "url": "https://www.gramedia.com/products/buddha-6-ananda",
+        "is_discount": true
+    },
+    {
+        "book_id": 53,
+        "title": "I \"Parry\" Everything #1",
+        "isbn": "9786230318979",
+        "num_pages": 328,
+        "publish_date": "5 Jan 2026",
+        "url": "https://www.gramedia.com/products/i-parry-everything-1",
+        "is_discount": true
+    },
+    {
+        "book_id": 54,
+        "title": "Mice Cartoon - Telekomunikasi Mengubah Peradaban",
+        "isbn": "9786231343857",
+        "num_pages": 152,
+        "publish_date": "19 Mei 2025",
+        "url": "https://www.gramedia.com/products/mice-cartoon--telekomunikasi-mengubah-peradaban",
+        "is_discount": false
+    },
+    {
+        "book_id": 55,
+        "title": "Johan Series#1: Obsesi",
+        "isbn": "9786020686301",
+        "num_pages": 240,
+        "publish_date": "1 Des 2025",
+        "url": "https://www.gramedia.com/products/johan-series1-obsesi",
+        "is_discount": true
+    },
+    {
+        "book_id": 56,
+        "title": "Koloni : Gundala Vs Sancaka",
+        "isbn": "9786230319792",
+        "num_pages": 72,
+        "publish_date": "15 Apr 2026",
+        "url": "https://www.gramedia.com/products/koloni--gundala-vs-sancaka",
+        "is_discount": true
+    },
+    {
+        "book_id": 57,
+        "title": "Koloni: We Are Pharmacists 2",
+        "isbn": "9786230320439",
+        "num_pages": 120,
+        "publish_date": "25 Jun 2026",
+        "url": "https://www.gramedia.com/products/koloni-we-are-pharmacists-2",
+        "is_discount": false
+    },
+    {
+        "book_id": 58,
+        "title": "Ichi the Witch 02",
+        "isbn": "9786230074677",
+        "num_pages": 200,
+        "publish_date": "15 Jan 2026",
+        "url": "https://www.gramedia.com/products/ichi-the-witch-02",
+        "is_discount": true
+    },
+    {
+        "book_id": 59,
+        "title": "Komik Ga Jelas Vol. 03 - Edisi Revisi",
+        "isbn": "9786020485515",
+        "num_pages": 160,
+        "publish_date": "1 Jul 2025",
+        "url": "https://www.gramedia.com/products/komik-ga-jelas-vol-03--edisi-revisi",
+        "is_discount": true
+    },
+    {
+        "book_id": 60,
+        "title": "Halte Alam Baka",
+        "isbn": "9786020682389",
+        "num_pages": 280,
+        "publish_date": "18 Feb 2026",
+        "url": "https://www.gramedia.com/products/halte-alam-baka-1",
+        "is_discount": false
+    },
+    {
+        "book_id": 61,
+        "title": "Light Novel The Eminence in Shadow 5",
+        "isbn": "9786347375780",
+        "num_pages": 322,
+        "publish_date": "9 Jan 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-eminence-in-shadow-5",
+        "is_discount": false
+    },
+    {
+        "book_id": 62,
+        "title": "Berupaya",
+        "isbn": "9786235235097",
+        "num_pages": 120,
+        "publish_date": "15 Mei 2025",
+        "url": "https://www.gramedia.com/products/berupaya",
+        "is_discount": true
+    },
+    {
+        "book_id": 63,
+        "title": "Panji Tengkorak",
+        "isbn": "9786238728169",
+        "num_pages": 200,
+        "publish_date": "2 Sep 2025",
+        "url": "https://www.gramedia.com/products/panji-tengkorak",
+        "is_discount": false
+    },
+    {
+        "book_id": 64,
+        "title": "Light Novel: Who Killed The Brave? Chapter of Prophecy",
+        "isbn": "9786347574244",
+        "num_pages": 248,
+        "publish_date": "30 Apr 2026",
+        "url": "https://www.gramedia.com/products/light-novel-who-killed-the-brave-chapter-of-prophecy",
+        "is_discount": false
+    },
+    {
+        "book_id": 65,
+        "title": "Light Novel: The Apothecary Diaries Vol. 01 - Maomao, Special Package",
+        "isbn": "9786230318948",
+        "num_pages": 308,
+        "publish_date": "8 Jan 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-apothecary-diaries-vol-01--maomao-special-package",
+        "is_discount": true
+    },
+    {
+        "book_id": 66,
+        "title": "Light Novel: Re:Zero - Starting Life in Another World - 21",
+        "isbn": "9786347375933",
+        "num_pages": 360,
+        "publish_date": "23 Feb 2026",
+        "url": "https://www.gramedia.com/products/light-novel-rezero--starting-life-in-another-world--21",
+        "is_discount": false
+    },
+    {
+        "book_id": 67,
+        "title": "Koloni: Anay-Nay 2 - Tamat",
+        "isbn": "9786230320453",
+        "num_pages": 128,
+        "publish_date": "25 Jun 2026",
+        "url": "https://www.gramedia.com/products/koloni-anaynay-2--tamat",
+        "is_discount": false
+    },
+    {
+        "book_id": 68,
+        "title": "Akasha : The Grand Study of Ito Junji (Bundling Lanyard)",
+        "isbn": "9786230316692",
+        "num_pages": 340,
+        "publish_date": "20 Jan 2026",
+        "url": "https://www.gramedia.com/products/akasha--the-grand-study-of-ito-junji-bundling-lanyard",
+        "is_discount": true
+    },
+    {
+        "book_id": 69,
+        "title": "Light Novel: The Summer Hikaru Died 2",
+        "isbn": "9786347574497",
+        "num_pages": 226,
+        "publish_date": "18 Mei 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-summer-hikaru-died-2-1",
+        "is_discount": false
+    },
+    {
+        "book_id": 70,
+        "title": "Murder at Shijinso (New Cover)",
+        "isbn": "9786235467474",
+        "num_pages": 412,
+        "publish_date": "8 Jul 2026",
+        "url": "https://www.gramedia.com/products/murder-at-shijinso-new-cover",
+        "is_discount": false
+    },
+    {
+        "book_id": 71,
+        "title": "Light Novel The Eminence in Shadow 6",
+        "isbn": "9786347574831",
+        "num_pages": 306,
+        "publish_date": "2 Jul 2026",
+        "url": "https://www.gramedia.com/products/light-novel-the-eminence-in-shadow-6",
+        "is_discount": false
+    },
+    {
+        "book_id": 72,
+        "title": "Sandi Nusantara 2",
+        "isbn": "9786027829800",
+        "num_pages": 204,
+        "publish_date": "21 Mar 2024",
+        "url": "https://www.gramedia.com/products/sandi-nusantara-2",
+        "is_discount": true
+    },
+    {
+        "book_id": 73,
+        "title": "My Stupid Boss Vol. 1",
+        "isbn": "9786238728077",
+        "num_pages": 172,
+        "publish_date": "10 Jan 2025",
+        "url": "https://www.gramedia.com/products/my-stupid-boss-vol-1",
+        "is_discount": false
+    },
+    {
+        "book_id": 74,
+        "title": "Ichi the Witch 03",
+        "isbn": "9786230077500",
+        "num_pages": 200,
+        "publish_date": "8 Apr 2026",
+        "url": "https://www.gramedia.com/products/ichi-the-witch-03",
+        "is_discount": true
+    },
+    {
+        "book_id": 75,
+        "title": "Bundling Komik 4 - CS1",
+        "isbn": "N/A",
+        "num_pages": 0,
+        "publish_date": "13 Mei 2026",
+        "url": "https://www.gramedia.com/products/bundling-komik-4--cs1",
+        "is_discount": false
+    },
+    {
+        "book_id": 76,
+        "title": "Komik Ga Jelas Vol. 02 - Edisi Revisi",
+        "isbn": "9786020454474",
+        "num_pages": 160,
+        "publish_date": "7 Mei 2025",
+        "url": "https://www.gramedia.com/products/komik-ga-jelas-vol-02--edisi-revisi",
+        "is_discount": false
+    },
+    {
+        "book_id": 77,
+        "title": "Privately",
+        "isbn": "9786347031525",
+        "num_pages": 396,
+        "publish_date": "6 Jul 2026",
+        "url": "https://www.gramedia.com/products/privately",
+        "is_discount": false
+    },
+    {
+        "book_id": 78,
+        "title": "Dedes",
+        "isbn": "N/A",
+        "num_pages": 420,
+        "publish_date": "6 Jan 2026",
+        "url": "https://www.gramedia.com/products/dedes",
+        "is_discount": true
+    },
+    {
+        "book_id": 79,
+        "title": "Detektif Conan the Movie: The Bride of Halloween 01",
+        "isbn": "9786230073298",
+        "num_pages": 200,
+        "publish_date": "31 Okt 2025",
+        "url": "https://www.gramedia.com/products/detektif-conan-the-movie-the-bride-of-halloween-01",
+        "is_discount": true
+    },
+    {
+        "book_id": 80,
+        "title": "Sandi Nusantara 3",
+        "isbn": "9786027829862",
+        "num_pages": 206,
+        "publish_date": "23 Jul 2025",
+        "url": "https://www.gramedia.com/products/sandi-nusantara-3",
+        "is_discount": true
+    },
+    {
+        "book_id": 81,
+        "title": "Sepotong Kisah di Balik 98 : Cerita Pilihan Luluk HF",
+        "isbn": "9786026714893",
+        "num_pages": 450,
+        "publish_date": "16 Feb 2024",
+        "url": "https://www.gramedia.com/products/sepotong-kisah-di-balik-98-cerita-pilihan-luluk-hf",
+        "is_discount": true
+    },
+    {
+        "book_id": 82,
         "title": "Ensiklopedia 4D: Tubuh Manusia",
         "isbn": "9786020629544",
         "num_pages": 88,
