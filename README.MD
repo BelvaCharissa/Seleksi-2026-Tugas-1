@@ -342,10 +342,21 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 
 ### 1. Data Scraping
 <div align="left">
-  <img src="Data Scraping/screenshots/ss_scraping-1.png" alt="Scraping 1" width="800"/>
+  <img src="Data Scraping/screenshots/ss_scraping1.png" alt="Scraping 1" width="800"/>
+  <img src="Data Scraping/screenshots/ss_scraping2.png" alt="Scraping 2" width="800"/>
 </div>
 
 ### 2. Data Storing
+
+#### Tabel From Scraping to Storing
+<div align="left">
+  <img src="Data Storing/screenshots/from scraping to storing.png" alt="Tabel Storing" width="400"/>
+</div>
+
+#### Pembuatan Tabel pada Database
+<div align="left">
+  <img src="Data Storing/screenshots/create table.png" alt="PembuatanTabel Database" width="400"/>
+</div>
 
 #### Tabel pada Database
 <div align="left">
@@ -362,6 +373,11 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 
 ### 3. Data Warehouse
 
+#### ETL Run
+<div align="left">
+  <img src="Data Warehouse/screenshots/inserting_data.png" alt="Inserting Data" width="300"/>
+</div>
+
 #### Tabel pada Database
 <div align="left">
   <img src="Data Warehouse/screenshots/data_warehouse_table.png" alt="DW Table" width="300"/>
@@ -369,17 +385,17 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 
 #### Query Jumlah Buku per Penerbit
 <div align="left">
-  <img src="Data Warehouse/screenshots/query_publisher.png" alt="Query Publisher" width="600"/>
+  <img src="Data Warehouse/screenshots/try_queries.png" alt="Query Publisher" width="600"/>
 </div>
 
 #### Query Persentase Diskon per Format
 <div align="left">
-  <img src="Data Warehouse/screenshots/query_format_discount.png" alt="Query Format Discount" width="600"/>
+  <img src="Data Warehouse/screenshots/try_queries.png" alt="Query Format Discount" width="600"/>
 </div>
 
 #### Query Rata-Rata Harga per Catalog
 <div align="left">
-  <img src="Data Warehouse/screenshots/query_catalog.png" alt="Query Catalog" width="600"/>
+  <img src="Data Warehouse/screenshots/try_queries.png" alt="Query Catalog" width="600"/>
 </div>
 
 ### 4. Automated Scheduling
