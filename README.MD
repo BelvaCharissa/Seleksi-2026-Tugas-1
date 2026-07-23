@@ -420,6 +420,35 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
   <img src="Query Optimization/screenshots/optimasi3_sesudah.png" alt="Optimasi 3 Sesudah" width="700"/>
 </div>
 
+## Penggunaan AI
+ 
+Saya menggunakan Claude (Anthropic) sebagai *pair-programming assistant* dan *tutor* sepanjang pengerjaan tugas ini. Berikut rincian jujur mengenai bagian mana yang dibantu AI, mana yang saya kerjakan sendiri, serta refleksi dari proses ini.
+ 
+### 1. Bagian yang Dibantu AI
+ 
+- **Review dan validasi desain ERD**: saya menggambar ERD sendiri di draw.io, lalu meminta Claude mengecek arah panah (notasi one/many), garis double (total/partial participation), dan konsistensi kardinalitas antar relasi. Banyak kesalahan (arah panah terbalik, relasi yang belum digambar, entity yang salah ditandai weak/bukan) baru saya sadari setelah ditunjukkan dan dijelaskan alasannya oleh Claude bukan langsung diberi jawaban jadi.
+- **Penjelasan konsep desain database**: konsep weak entity, composite key, many-to-many via junction table, snapshot data historis (`harga_saat_dibeli`), dan perbedaan star vs snowflake schema saya pahami lewat tanya-jawab berulang dengan Claude sampai saya bisa menjelaskan ulang alasannya sendiri.
+- **Penulisan kode**: `load_data.py`, `dw_load_data.py`, `run_etl.py`, `run_wrapper.bat`, dan `scraper.py` ditulis oleh Claude berdasarkan spesifikasi skema yang sudah saya rancang dan validasi sebelumnya.
+- **Debugging**: saya menjalankan sendiri semua command dan script di terminal, lalu men-*share* pesan error yang muncul (misal `InvalidSessionIdException` saat Chrome crash, `CheckViolation` saat `num_pages = 0`, salah baca `data-testid` untuk deteksi diskon) ke Claude untuk didiagnosis dan diperbaiki.
+- **Penyusunan dokumentasi**: struktur dan draft README ini dibantu disusun oleh Claude, saya sesuaikan isinya dengan hasil kerja nyata saya
+
+### 2. Bagian yang Dikerjakan Sendiri
+ 
+- Riset awal dan pemilihan objek scraping (gramedia.com), termasuk eksplorasi manual struktur halaman lewat DevTools browser untuk menemukan `data-testid` yang benar (misal `productDetailSlicePrice`, `productDetailDiscount`), Claude tidak bisa mengakses halaman yang di-render JavaScript, jadi saya yang inspect elemen secara manual dan melaporkan hasilnya.
+- Instalasi dan konfigurasi environment (PostgreSQL, Python, ChromeDriver, Windows PATH, reset password PostgreSQL lewat `pg_hba.conf`) — dijalankan dan di-troubleshoot sendiri di komputer saya, dengan panduan dari Claude.
+- Eksekusi seluruh pipeline (menjalankan scraper, load data, ETL warehouse) dan verifikasi hasilnya lewat query manual.
+- Pengambilan seluruh screenshot bukti dan penyusunan folder submission sesuai struktur yang diminta.
+- Pengambilan keputusan desain akhir (misal: memutuskan `Catalog` bersifat many-to-many terhadap `Books` karena satu buku bisa masuk lebih dari satu koleksi kurasi  ini keputusan bisnis dari saya, bukan usulan AI).
+
+### 3. Refleksi Penggunaan AI
+ 
+Awalnya saya beberapa kali salah desain (misal menaruh `author_id` di tabel yang salah, arah panah kardinalitas terbalik berkali-kali di banyak relasi berbeda). Proses tanya-jawab berulang dengan Claude — di mana saya diminta menjelaskan alasan di balik setiap keputusan desain, bukan cuma diberi jawaban akhir — membantu saya benar-benar memahami *kenapa* suatu relasi harus digambar dengan cara tertentu, bukan sekadar meniru. Saya merasa proses ini lebih mendekati *belajar dibimbing* dibanding *dikerjakan otomatis*, karena saya tetap harus mengeksekusi, menguji, dan melaporkan hasil nyata di komputer saya sendiri — termasuk menghadapi error yang tidak terduga (Chrome crash, encoding UTF-8 di terminal Windows, constraint violation) yang harus saya diagnosis bareng-bareng lewat log yang saya kirim sendiri.
+ 
+### 4. Detail Lainnya
+ 
+- Semua kode di repository ini sudah saya jalankan sendiri dan verifikasi hasilnya (bukan disalin mentah tanpa dites).
+- Percakapan penuh dengan AI (termasuk seluruh proses debugging dan revisi desain) dapat ditunjukkan sebagai bukti proses jika diperlukan.
+
 ## Referensi
 1. **[Gramedia - Best Seller Books](https://www.gramedia.com/best-seller)**
 2. **[Dokumentasi PostgreSQL](https://www.postgresql.org/)**
