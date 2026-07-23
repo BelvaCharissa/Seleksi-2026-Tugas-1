@@ -366,6 +366,7 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 #### Query SELECT ... WHERE (Bukti Data Tersimpan)
 <div align="left">
   <img src="Data Storing/screenshot/query_discount_books.png" alt="Query Buku Diskon"/>
+  <img src="Data Storing/screenshot/query_discount_books2.png" alt="Query Buku Diskon"/>
 </div>
 <div align="left">
   <img src="Data Storing/screenshot/query_join_author_publisher.png" alt="Query Join Author Publisher"/>
@@ -402,12 +403,22 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 
 #### Riwayat Etl_Log (Bukti Timestamp Antar Batch)
 <div align="left">
-  <img src="Data Warehouse/screenshot/etl_log_2_baris.png" alt="ETL Log" width="700"/>
+  <img src="Data Warehouse/screenshot/etl_log.png" alt="ETL Log" width="700"/>
 </div>
+<div align="left">
+  <img src="Data Warehouse/screenshot/etl_log2.png" alt="ETL Log" width="700"/>
+</div>
+<div align="left">
+  <img src="Data Warehouse/screenshot/etl_log3.png" alt="ETL Log" width="700"/>
+</div>
+<div align="left">
+  <img src="Data Warehouse/screenshot/etl_log4.png" alt="ETL Log" width="700"/>
+</div>
+
 
 #### Windows Task Scheduler
 <div align="left">
-  <img src="Data Warehouse/screenshot/task_scheduler.png" alt="Task Scheduler" width="700"/>
+  <img src="Data Warehouse/screenshot/automated_scheduling_proof.png" alt="Task Scheduler" width="700"/>
 </div>
 
 ### 5. Query Optimization
