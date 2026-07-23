@@ -342,98 +342,98 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 
 ### 1. Data Scraping
 <div align="left">
-  <img src="Data Scraping/screenshots/ss_scraping1.png" alt="Scraping 1" width="800"/>
-  <img src="Data Scraping/screenshots/ss_scraping2.png" alt="Scraping 2" width="800"/>
+  <img src="Data Scraping/screenshot/ss_scraping1.png" alt="Scraping 1" width="800"/>
+  <img src="Data Scraping/screenshot/ss_scraping2.png" alt="Scraping 2" width="800"/>
 </div>
 
 ### 2. Data Storing
 
 #### Tabel From Scraping to Storing
 <div align="left">
-  <img src="Data Storing/screenshots/from scraping to storing.png" alt="Tabel Storing" width="400"/>
+  <img src="Data Storing/screenshot/from scraping to storing.png" alt="Tabel Storing" width="400"/>
 </div>
 
 #### Pembuatan Tabel pada Database
 <div align="left">
-  <img src="Data Storing/screenshots/create table.png" alt="PembuatanTabel Database" width="400"/>
+  <img src="Data Storing/screenshot/create table.png" alt="PembuatanTabel Database" width="400"/>
 </div>
 
 #### Tabel pada Database
 <div align="left">
-  <img src="Data Storing/screenshots/data_storing_table.png" alt="Tabel Database" width="400"/>
+  <img src="Data Storing/screenshot/data_storing_table.png" alt="Tabel Database" width="400"/>
 </div>
 
 #### Query SELECT ... WHERE (Bukti Data Tersimpan)
 <div align="left">
-  <img src="Data Storing/screenshots/query_discount_books.png" alt="Query Buku Diskon"/>
+  <img src="Data Storing/screenshot/query_discount_books.png" alt="Query Buku Diskon"/>
 </div>
 <div align="left">
-  <img src="Data Storing/screenshots/query_join_author_publisher.png" alt="Query Join Author Publisher"/>
+  <img src="Data Storing/screenshot/query_join_author_publisher.png" alt="Query Join Author Publisher"/>
 </div>
 
 ### 3. Data Warehouse
 
 #### ETL Run
 <div align="left">
-  <img src="Data Warehouse/screenshots/inserting_data.png" alt="Inserting Data" width="300"/>
+  <img src="Data Warehouse/screenshot/inserting_data.png" alt="Inserting Data" width="300"/>
 </div>
 
 #### Tabel pada Database
 <div align="left">
-  <img src="Data Warehouse/screenshots/data_warehouse_table.png" alt="DW Table" width="300"/>
+  <img src="Data Warehouse/screenshot/data_warehouse_table.png" alt="DW Table" width="300"/>
 </div>
 
 #### Query Jumlah Buku per Penerbit
 <div align="left">
-  <img src="Data Warehouse/screenshots/try_queries.png" alt="Query Publisher" width="600"/>
+  <img src="Data Warehouse/screenshot/try_queries.png" alt="Query Publisher" width="600"/>
 </div>
 
 #### Query Persentase Diskon per Format
 <div align="left">
-  <img src="Data Warehouse/screenshots/try_queries.png" alt="Query Format Discount" width="600"/>
+  <img src="Data Warehouse/screenshot/try_queries.png" alt="Query Format Discount" width="600"/>
 </div>
 
 #### Query Rata-Rata Harga per Catalog
 <div align="left">
-  <img src="Data Warehouse/screenshots/try_queries.png" alt="Query Catalog" width="600"/>
+  <img src="Data Warehouse/screenshot/try_queries.png" alt="Query Catalog" width="600"/>
 </div>
 
 ### 4. Automated Scheduling
 
 #### Riwayat Etl_Log (Bukti Timestamp Antar Batch)
 <div align="left">
-  <img src="Data Warehouse/screenshots/etl_log_2_baris.png" alt="ETL Log" width="700"/>
+  <img src="Data Warehouse/screenshot/etl_log_2_baris.png" alt="ETL Log" width="700"/>
 </div>
 
 #### Windows Task Scheduler
 <div align="left">
-  <img src="Data Warehouse/screenshots/task_scheduler.png" alt="Task Scheduler" width="700"/>
+  <img src="Data Warehouse/screenshot/task_scheduler.png" alt="Task Scheduler" width="700"/>
 </div>
 
 ### 5. Query Optimization
 
 #### Optimasi 1: Pencarian Judul Buku
 <div align="left">
-  <img src="Query Optimization/screenshots/optimasi1_sebelum.png" alt="Optimasi 1 Sebelum" width="700"/>
+  <img src="Query Optimization/screenshot/optimasi1_sebelum.png" alt="Optimasi 1 Sebelum" width="700"/>
 </div>
 <div align="left">
-  <img src="Query Optimization/screenshots/optimasi1_sesudah.png" alt="Optimasi 1 Sesudah" width="700"/>
+  <img src="Query Optimization/screenshot/optimasi1_sesudah.png" alt="Optimasi 1 Sesudah" width="700"/>
 </div>
 
 #### Optimasi 2: Buku per Catalog
 <div align="left">
-  <img src="Query Optimization/screenshots/optimasi2_sebelum.png" alt="Optimasi 2 Sebelum" width="700"/>
+  <img src="Query Optimization/screenshot/optimasi2_sebelum.png" alt="Optimasi 2 Sebelum" width="700"/>
 </div>
 <div align="left">
-  <img src="Query Optimization/screenshots/optimasi2_sesudah.png" alt="Optimasi 2 Sesudah" width="700"/>
+  <img src="Query Optimization/screenshot/optimasi2_sesudah.png" alt="Optimasi 2 Sesudah" width="700"/>
 </div>
 
 #### Optimasi 3: Halaman Buku Diskon
 <div align="left">
-  <img src="Query Optimization/screenshots/optimasi3_sebelum.png" alt="Optimasi 3 Sebelum" width="700"/>
+  <img src="Query Optimization/screenshot/optimasi3_sebelum.png" alt="Optimasi 3 Sebelum" width="700"/>
 </div>
 <div align="left">
-  <img src="Query Optimization/screenshots/optimasi3_sesudah.png" alt="Optimasi 3 Sesudah" width="700"/>
+  <img src="Query Optimization/screenshot/optimasi3_sesudah.png" alt="Optimasi 3 Sesudah" width="700"/>
 </div>
 
 ## Penggunaan AI
