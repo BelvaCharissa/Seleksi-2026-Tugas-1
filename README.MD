@@ -414,26 +414,35 @@ Pendekatan denormalisasi ini sengaja dipilih untuk menghindari JOIN kompleks saa
 
 #### Optimasi 1: Pencarian Judul Buku
 <div align="left">
-  <img src="Query Optimization/screenshot/optimasi1_sebelum.png" alt="Optimasi 1 Sebelum" width="700"/>
+  <img src="Data Warehouse/screenshot/optimasi1_sebelum.png" alt="Optimasi 1 Sebelum" width="700"/>
 </div>
 <div align="left">
-  <img src="Query Optimization/screenshot/optimasi1_sesudah.png" alt="Optimasi 1 Sesudah" width="700"/>
+  <img src="Data Warehouse/screenshot/optimasi1_index.png" alt="Optimasi 1 Index" width="700"/>
+</div>
+<div align="left">
+  <img src="Data Warehouse/screenshot/optimasi1_sesudah.png" alt="Optimasi 1 Sesudah" width="700"/>
 </div>
 
 #### Optimasi 2: Buku per Catalog
 <div align="left">
-  <img src="Query Optimization/screenshot/optimasi2_sebelum.png" alt="Optimasi 2 Sebelum" width="700"/>
+  <img src="Data Warehouse/screenshot/optimasi2_sebelum.png" alt="Optimasi 2 Sebelum" width="700"/>
 </div>
 <div align="left">
-  <img src="Query Optimization/screenshot/optimasi2_sesudah.png" alt="Optimasi 2 Sesudah" width="700"/>
+  <img src="Data Warehouse/screenshot/optimasi2_index.png" alt="Optimasi 2 Index" width="700"/>
+</div>
+<div align="left">
+  <img src="Data Warehouse/screenshot/optimasi2_sesudah.png" alt="Optimasi 2 Sesudah" width="700"/>
 </div>
 
 #### Optimasi 3: Halaman Buku Diskon
 <div align="left">
-  <img src="Query Optimization/screenshot/optimasi3_sebelum.png" alt="Optimasi 3 Sebelum" width="700"/>
+  <img src="Data Warehouse/screenshot/optimasi3_sebelum.png" alt="Optimasi 3 Sebelum" width="700"/>
 </div>
 <div align="left">
-  <img src="Query Optimization/screenshot/optimasi3_sesudah.png" alt="Optimasi 3 Sesudah" width="700"/>
+  <img src="Data Warehouse/screenshot/optimasi1_index.png" alt="Optimasi 3 Index" width="700"/>
+</div>
+<div align="left">
+  <img src="Data Warehouse/screenshot/optimasi3_sesudah.png" alt="Optimasi 3 Sesudah" width="700"/>
 </div>
 
 ## Penggunaan AI
